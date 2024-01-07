@@ -15,11 +15,11 @@ const excludeFiles = (predicate: boolean, paths: (string | RegExp)[]) => {
 export default defineConfig({
   root: "./src",
   appType: "spa",
-  resolve: {
-    alias: {
-      https: require.resolve("rollup-plugin-node-builtins"),
-    },
-  },
+  // resolve: {
+  //   alias: {
+  //     https: require.resolve("rollup-plugin-node-builtins"),
+  //   },
+  // },
   plugins: [
     react(),
     // allows us to use the tsconfig baseUrl setting

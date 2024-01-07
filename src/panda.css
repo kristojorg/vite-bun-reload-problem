@@ -1,6 +1,6 @@
 * {
   color: red;
-  background: yellow;
+  background: blue;
 }
 
 @layer reset, base, tokens, recipes, utilities;

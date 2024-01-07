@@ -11,19 +11,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "postcss-modules": "^6.0.0",
-    "postcss-nesting": "^11.2.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "rollup-plugin-node-builtins": "^2.1.2"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@pandacss/dev": "^0.25.0",
-    "@pandacss/studio": "^0.25.0",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
-    "@types/react-router": "^5.1.19",
-    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-legacy": "^5.2.0",
     "@vitejs/plugin-react": "^4.2.1",
     "vite": "^5.0.11",
