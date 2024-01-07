@@ -1,0 +1,5 @@
+* {
+  color: pink;
+}
+
+@layer reset, base, tokens, recipes, utilities;
