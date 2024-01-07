@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tsconfigPaths from "vite-tsconfig-paths";
 import pluginRewriteAll from "vite-plugin-rewrite-all";
-import legacy from "@vitejs/plugin-legacy";
+// import legacy from "@vitejs/plugin-legacy";
 
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
@@ -35,9 +35,9 @@ export default defineConfig({
     // // basicSsl()
 
     // // this plugin allows us to support older version of iOS
-    legacy({
-      targets: ["defaults", "ios >= 13"],
-    }),
+    // legacy({
+    //   targets: ["defaults", "ios >= 13"],
+    // }),
   ],
   envDir: "./env",
   build: {
