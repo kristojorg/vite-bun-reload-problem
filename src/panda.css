@@ -1,5 +1,6 @@
 * {
-  color: pink;
+  color: red;
+  background: green;
 }
 
 @layer reset, base, tokens, recipes, utilities;
