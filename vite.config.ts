@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import tsconfigPaths from "vite-tsconfig-paths";
-import pluginRewriteAll from "vite-plugin-rewrite-all";
+// import tsconfigPaths from "vite-tsconfig-paths";
+// import pluginRewriteAll from "vite-plugin-rewrite-all";
 // import legacy from "@vitejs/plugin-legacy";
 
 import { createRequire } from "module";
@@ -24,12 +24,12 @@ export default defineConfig({
     react(),
     // allows us to use the tsconfig baseUrl setting
     // to enable absolute imports
-    tsconfigPaths() as any,
+    // tsconfigPaths() as any,
     // /**
     //  * Fixes the 404 error issue on page refresh when the URL
     //  * contains invalid characters
     //  */
-    pluginRewriteAll() as any,
+    // pluginRewriteAll() as any,
     // // This runs the app over https but Android still
     // // refuses to load it.
     // // basicSsl()
