@@ -12,11 +12,12 @@ function App() {
           color: 'pink.500',
         })}
       >
-        Hello World
+        Hello World, I should be pink.
       </p>
       <button
         className={css({
           rounded: 'sm',
+          color: "blue.700",
           fontFamily: 'mono',
           px: '4',
           py: '2',
@@ -25,7 +26,7 @@ function App() {
           },
         })}
       >
-        Click me
+        Click me. I am blue.
       </button>
     </div>
   );

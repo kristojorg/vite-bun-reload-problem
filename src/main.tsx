@@ -4,7 +4,7 @@ import App from "./App";
 import "./panda.css";
 import styles from "./panda.css?inline";
 
-console.log("what hey", styles);
+console.log("imported styles", styles);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>

@@ -1,6 +1,7 @@
-* {
-  color: red;
-  background: green;
-}
+@layer reset, custom, base, tokens, recipes;
 
-@layer reset, base, tokens, recipes, utilities;
+@layer custom {
+  button {
+    color: "red";
+  }
+}
